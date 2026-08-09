@@ -1,0 +1,101 @@
+/* ============================================================
+   设计令牌 · 马卡龙柔和体系
+   规则：无硬边框、大圆角、柔和低对比阴影
+   ============================================================ */
+:root {
+  /* —— 马卡龙主色 —— */
+  --pink-50:  #FFF4F7;
+  --pink-100: #FFE4EC;
+  --pink-200: #FFD1DF;
+  --pink-300: #FFB3C6;
+  --pink-400: #F58FAC;
+  --pink-600: #D96B8C;
+
+  --mint-50:  #F1FCF8;
+  --mint-100: #DDF6EC;
+  --mint-200: #C4EFDF;
+  --mint-300: #A3E3CB;
+  --mint-500: #5FC3A0;
+
+  --lav-50:   #F7F4FD;
+  --lav-100:  #ECE5FA;
+  --lav-200:  #DDD1F5;
+  --lav-300:  #C7B4ED;
+  --lav-500:  #9B7FD4;
+
+  --butter-100: #FFF6DC;
+  --butter-200: #FFEDBF;
+  --butter-300: #FFE09A;
+  --butter-500: #E5B54B;
+
+  --sky-100:  #E4F1FB;
+  --sky-200:  #CCE5F7;
+  --sky-500:  #6BAEDB;
+
+  --peach-100: #FFEDE3;
+  --peach-200: #FFDCC9;
+
+  /* —— 语义色 —— */
+  --c-expense: #F58FAC;   /* 支出 = 粉（国内涨红跌绿：支出用粉红系） */
+  --c-income:  #5FC3A0;   /* 收入 = 薄荷绿 */
+  --c-high:    #FFB3C6;   /* 高优先级 / 高精力 */
+  --c-mid:     #FFE09A;   /* 中 */
+  --c-low:     #A3E3CB;   /* 低 */
+
+  /* —— 中性 —— */
+  --bg:        #FFFAFB;
+  --bg-warm:   #FFF6F8;
+  --surface:   #FFFFFF;
+  --surface-2: #FDF6F8;
+
+  --text:      #5C4A54;
+  --text-2:    #8E7C86;
+  --text-3:    #B7A8B0;
+  --text-on:   #FFFFFF;
+
+  /* —— 圆角（无硬边框，一律大圆角） —— */
+  --r-xs: 10px;
+  --r-sm: 14px;
+  --r-md: 18px;
+  --r-lg: 24px;
+  --r-xl: 30px;
+  --r-full: 999px;
+
+  /* —— 间距 —— */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 20px;
+  --sp-6: 24px;
+  --sp-7: 32px;
+  --sp-8: 40px;
+
+  /* —— 阴影（柔和、无边框替代） —— */
+  --sh-xs: 0 2px 8px rgba(190, 150, 170, .08);
+  --sh-sm: 0 4px 14px rgba(190, 150, 170, .10);
+  --sh-md: 0 6px 20px rgba(190, 150, 170, .13);
+  --sh-lg: 0 10px 30px rgba(190, 150, 170, .16);
+  --sh-pink: 0 6px 18px rgba(245, 143, 172, .28);
+
+  /* —— 字体 —— */
+  --font: "PingFang SC", "HarmonyOS Sans SC", "Hiragino Sans GB",
+          "Microsoft YaHei UI", "Microsoft YaHei", system-ui, -apple-system, sans-serif;
+
+  --fs-xs: 11px;
+  --fs-sm: 12px;
+  --fs-base: 14px;
+  --fs-md: 15px;
+  --fs-lg: 17px;
+  --fs-xl: 20px;
+  --fs-2xl: 24px;
+  --fs-3xl: 30px;
+
+  /* —— 动效 —— */
+  --ease: cubic-bezier(.22,.8,.3,1);
+  --dur: .28s;
+
+  /* —— 布局 —— */
+  --app-max: 430px;
+  --bar-h: 62px;
+}
